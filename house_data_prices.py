@@ -9,8 +9,9 @@ Created on Thu Feb  2 16:20:50 2023
 import pandas as pd
 import miceforest as mf
 
-train = pd.read_csv('/home/aitorchagon/Desktop/Proyectos/House Data Prices/train.csv')
-test = pd.read_csv('/home/aitorchagon/Desktop/Proyectos/House Data Prices/test.csv')
+
+train = pd.read_csv('test.csv')
+test = pd.read_csv('train.csv')
 
 house = pd.concat([train, test])
 
